@@ -5,11 +5,11 @@
     <script src='https://cdn.tinymce.com/4/tinymce.min.js'></script>
     <script>
         tinymce.init({
-            selector: '#mytextarea'
-        });
-
-        tinymce.activeEditor.uploadImages(function(success) {
-            document.forms[0].submit();
+            selector: "#mytextarea",
+            plugins: "image imagetools, code,textcolor,link,advlist,media,paste,table",
+            menubar: "file,edit,view,format,insert",
+            toolbar: "undo,redo,styleselect, bold, italic,forecolor, backcolor, alignleft, aligncenter, alignright, bullist, numlist, outdent, indent, code,image,link,media,paste,table",
+            image_caption: true
         });
     </script>
 </head>
@@ -23,7 +23,7 @@
         <div id="content">
             <textarea id="mytextarea" name="post_content" placeholder="Enter your text here..."></textarea></div>
         <div id="button"><input type="submit" value="Publish"/>
-        <a href="<?= APP_ROOT ?>/posts">Cancel</a></div>
+            <a href="<?= APP_ROOT ?>/posts">Cancel</a></div>
     </form>
 </div>
 

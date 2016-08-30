@@ -7,7 +7,7 @@
     margin-left: 120px;
     margin-top: 20px;
     width: 1200px;
-    height: 1200px;
+    height: 1300px;
     padding: 10px;
     text-align: center;
     opacity: 0.95;
@@ -28,12 +28,15 @@ table th {
 table td{
     height: 120px;
 }
+#id{
+    width:20px;
+}
 #title{
-    width: 150px;
+    width: 250px;
 }
 
 #content {
-    width: 400px;
+    width: 250px;
 }
 #date {
     width: 150px;
@@ -44,7 +47,7 @@ table td{
 }
 
 #actions{
-    width: 150px;
+    width: 250px;
 }
 
 td a{
