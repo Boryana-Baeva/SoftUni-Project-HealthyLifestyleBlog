@@ -1,0 +1,39 @@
+
+#post {
+    display: block;
+    border-radius: 15px;
+    background-color: #f8f599;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    margin-left: 300px;
+    margin-bottom: 14%;
+    width:1000px;
+    height: 1200px;
+    padding: 50px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+.title{
+    color: #691202;
+}
+
+.date {
+    color: #691202;
+    float: left;
+    display: block;
+
+}
+
+.content {
+    color: #691202;
+}
+
+#share-buttons img {
+    width: 20px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 5px;
+    display: inline;
+    float: left;
+
+}

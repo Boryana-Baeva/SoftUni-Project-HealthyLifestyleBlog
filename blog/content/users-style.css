@@ -1,0 +1,30 @@
+
+.users-block {
+    display: block;
+    border-radius: 15px;
+    background-color: #f8f599;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 23%;
+    margin-left: 520px;
+    margin-top: 20px;
+    width: 450px;
+    height: 1000px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+table th, table td {
+    padding: 15px;
+    border-bottom-style: dashed;
+    border-color: #b7ee63
+}
+table th {
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Palatino Linotype";
+}
+
+table td{
+    height: 30px;
+}

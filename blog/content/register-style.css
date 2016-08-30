@@ -1,0 +1,177 @@
+h1{
+    color: #6ecc5b;
+    text-align: center;
+    font-size: 60px;
+}
+
+.register-block {
+    display: block;
+    border-radius: 15px;
+    background-color: #b0ee58;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    margin-bottom:23%;
+    margin-left: 32%;
+    width:35%;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.95;
+}
+
+#username {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#username input {
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    width: 280px;
+    height: 25px;
+    margin: 0 auto 0px;
+    text-align: center;
+    color: #80cc73;
+}
+
+
+#username input:focus{
+    font:12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #80cc73;
+}
+
+#username input::-webkit-input-placeholder{
+    font-family: "Palatino Linotype";
+    font-style: italic;
+    font-size: 15px;
+    color: #b7bea4;
+}
+
+#password {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#password input {
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    width: 280px;
+    height: 25px;
+    margin: 0 auto 0px;
+    text-align: center;
+    color: #80cc73;
+}
+
+#password input:focus{
+    font:12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #80cc73;
+}
+
+#password input::-webkit-input-placeholder{
+    font-family: "Palatino Linotype";
+    font-style: italic;
+    font-size: 15px;
+    color: #b7bea4;
+}
+
+
+#confirm {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+#confirm input {
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    width: 280px;
+    height: 25px;
+    margin: 0 auto 0px;
+    text-align: center;
+    color: #80cc73;
+}
+
+
+#confirm input:focus{
+    font:12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #80cc73;
+}
+
+#confirm input::-webkit-input-placeholder{
+    font-family: "Palatino Linotype";
+    font-style: italic;
+    font-size: 15px;
+    color: #b7bea4;
+}
+
+
+#full-name {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#full-name input {
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    width: 280px;
+    height: 25px;
+    margin: 0 auto 0px;
+    text-align: center;
+    color: #80cc73;
+}
+
+
+#full-name input:focus{
+    font:12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #80cc73;
+}
+
+#full-name input::-webkit-input-placeholder{
+    font-family: "Palatino Linotype";
+    font-style: italic;
+    font-size: 15px;
+    color: #b7bea4;
+}
+
+#button{
+
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+#button input{
+    text-align: center;
+    font:20px Palatino Linotype;
+    font-weight: bold;
+    color: white;
+    background-color: #80cc73;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+}
+
+#button input:hover {
+    font-weight: bold;
+    color: #24cc64;
+    background-color: white;
+}
+
+

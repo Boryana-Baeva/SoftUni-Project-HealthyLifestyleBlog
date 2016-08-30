@@ -1,0 +1,214 @@
+body {
+    font-family: "Palatino Linotype";
+    color: #69000e;
+}
+
+body>header {
+    background: #b7ee63;
+    opacity: 0.85;
+    padding: 5px;
+}
+
+body>header>a>img, body>header a  {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+    font-size: 1.2em;
+
+}
+
+#menu a {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 0em 1em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Palatino Linotype";
+    font-size: 1.10em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#menu ul {
+    list-style: none;
+    line-height: normal;
+}
+
+ul.tab {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.tab li {
+    float: left;
+    border-right: double;
+    border-right-color: #ffffff;
+}
+
+ul.tab li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+ul.tab li a:hover {
+    background-color: #80cc73;
+}
+
+body>footer {
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+    color: #691202;
+    font-weight: bold;
+}
+
+
+ul#messages li {
+    display: block;
+    font-size: 20px;
+    width: 200px;
+    height: 25px;
+    margin: 5px auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 600px;
+}
+
+ul#messages li.info {
+    background: #80cc73;
+    color: #ffffff;
+}
+
+ul#messages li.error {
+    background: #ff955b;
+    color: white;
+}
+
+.validation-error {
+    vertical-align: top;
+    margin-left: 10px;
+    color: #ff955b;
+}
+
+#logged-in-info {
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-family: "Palatino Linotype";
+    margin-top: 18px;
+}
+
+#logged-in-info form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#logged-in-info input{
+    text-align: center;
+    font:20px Palatino Linotype;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px 10px;
+    color: lightgreen;
+    border-style: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 110px;
+}
+
+#logged-in-info input:hover{
+    text-align: center;
+    font:20px Palatino Linotype;
+    font-weight: bold;
+    background-color: #80cc73;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 110px;
+    transition-duration: 0.5s;
+}
+
+body>aside {
+    float: left;
+    height: 500px;
+    width: 200px;
+    background: #80cc73;
+    opacity: 0.9;
+    padding: 15px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+body>aside h2 {
+    color: #ffffff;
+    margin: 5px 0 15px 0;
+}
+
+body>aside a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+body>main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.line {
+    size: 1200px 1200px;
+}
+
+#sidebarPost a{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom-color: white;
+    border-top-style: hidden;
+    border-bottom-style: inset;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#sidebarPost a:hover {
+    background-color: #b7ee63;
+    transform: translate3d(30%,0,0);
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 25px;
+
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
