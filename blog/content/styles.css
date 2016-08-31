@@ -6,16 +6,18 @@ body {
 body>header {
     background: #b7ee63;
     opacity: 0.85;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 body>header>a>img, body>header a  {
     display: inline-block;
     vertical-align: middle;
-    padding: 0 5px;
+    padding: 5px 5px;
     font-size: 1.2em;
 
 }
+
 
 #menu a {
     display: inline-block;
@@ -76,7 +78,7 @@ body>footer {
 ul#messages li {
     display: block;
     font-size: 20px;
-    width: 200px;
+    width: 300px;
     height: 25px;
     margin: 5px auto;
     text-align: center;
@@ -145,8 +147,8 @@ ul#messages li.error {
 
 body>aside {
     float: left;
-    height: 500px;
-    width: 200px;
+    height: auto;
+    width: 220px;
     background: #80cc73;
     opacity: 0.9;
     padding: 15px;
@@ -157,6 +159,7 @@ body>aside {
 body>aside h2 {
     color: #ffffff;
     margin: 5px 0 15px 0;
+    font-size: 30px;
 }
 
 body>aside a {
@@ -194,7 +197,11 @@ body>main:after {
     transition-duration: 1s;
 
 }
-
+#sidebarPost-date {
+    color: #ffffff;
+    font-size: 15px;
+    font-style: italic;
+}
 .chip {
     display: inline-block;
     padding: 0 25px;

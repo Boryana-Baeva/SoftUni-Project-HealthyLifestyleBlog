@@ -12,7 +12,6 @@
 <body>
 
 <header>
-    
     <a href="<?= APP_ROOT ?>"><img src="<?= APP_ROOT ?>/content/images/logo.png"></a>
     <?php if ($this->isLoggedIn) : ?>
         <div id="logged-in-info">
@@ -33,6 +32,7 @@
                 <li><a href="<?= APP_ROOT ?>/posts" accesskey="2" title="Posts">Posts</a></li>
                 <li><a href="<?= APP_ROOT ?>/posts/create" accesskey="3" title="Create Post">Create Post</a></li>
                 <li><a href="<?= APP_ROOT ?>/users" accesskey="4" title="Users">Users</a></li>
+                <li><a href="<?= APP_ROOT ?>/comments" accesskey="5" title="Comments">Comments</a></li>
             </ul>
         </div>
     <?php else: ?>
